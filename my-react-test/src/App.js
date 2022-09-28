@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Menubar from './components/Menubar';
-
+import Car from './components/Car';
 
 function App() {
   return (
@@ -31,12 +31,6 @@ export default App;
 
 
 
-
-function Car(props) {
-  return <h2>I am a { props.brand }!</h2>;
-}
-
-const myElement = <Car brand="Ford" />;
 
 
               
