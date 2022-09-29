@@ -2,11 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import Menubar from './components/Menubar';
 import Car from './components/Car';
+import Button from './components/Button';
 
 function App() {
   return (
     <div className="App">
       <Menubar/>
+      <Button/>
       <Car brand="Ford" />
       <header className="App-header">
         
